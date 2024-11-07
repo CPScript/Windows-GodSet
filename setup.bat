@@ -17,7 +17,7 @@ if exist "%godModePath%" (
 set /p createChoice="The folder does not exist. Do you want to create it? (Y/N): "
 if /I "%createChoice%"=="Y" (
     mkdir "%godModePath%"
-    echo God Mode folder created successfully.
+    echo God-settings file created successfully.
     
     set /p openNewChoice="Do you want to open the newly created system file? (Y/N): "
     if /I "%openNewChoice%"=="Y" (
